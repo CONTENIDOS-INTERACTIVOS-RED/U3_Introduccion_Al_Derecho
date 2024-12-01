@@ -20,12 +20,14 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title UNIDAD 1
-              h1.home-title.mb-4.text-uppercase Fundamentos del Pensamiento Algorítmico
+              p.home-main-title UNIDAD 3
+              h1.home-title.mb-4.text-uppercase Clasificación del derecho
               p.descripcion.mb-4 En esta primera unidad, se estudiarán los fundamentos esenciales del pensamiento algorítmico, destacando su rol en la resolución de problemas mediante el diseño de algoritmos estructurados. Además, se explorarán conceptos clave como los algoritmos, la lógica detrás de su construcción, y sus formas de representación a través de pseudocódigo y diagramas de flujo.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4 Prepárate para aplicar estos principios en diversas áreas, desde la informática hasta la administración y educación. #[strong ¡Inicia tu viaje para dominar la creación de soluciones eficientes y prácticas!]
-
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4 El derecho es un sistema de normas que regula la conducta humana en sociedad. En esta unidad, el estudiante explorará las principales clasificaciones del derecho, como el sustantivo y el adjetivo, el objetivo y el subjetivo, y el derecho escrito y no escrito. Estas categorías son esenciales para comprender cómo el sistema jurídico organiza sus normas para garantizar justicia, coherencia y una convivencia pacífica.
+                br
+                br
+                |#[b ¡Prepárate para descubrir cómo el derecho estructura las bases de nuestra vida en sociedad con precisión y claridad!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
