@@ -20,7 +20,7 @@ export default {
       {
         nombreRuta: 'introduccion',
         icono: 'fas fa-info-circle',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '',
         titulo: 'Introducción',
         desarrolloContenidos: true,
@@ -28,49 +28,29 @@ export default {
       {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '1',
-        titulo: 'Definición de algoritmo',
+        titulo: 'Clasificación del derecho ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Sistema',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Pensamiento Sistémico o lógico',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Eficiencia de los algoritmos',
-            hash: 't_1_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '2',
-        titulo: 'Lógica algorítmica: secuencias, condiciones, ciclos',
+        titulo: 'Derecho sustantivo y derecho adjetivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Metodología para la solución de algoritmos',
+            titulo: 'Derecho sustantivo',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Secuencias, condiciones, ciclos',
+            titulo: 'Derecho adjetivo',
             hash: 't_2_2',
           },
         ],
@@ -78,20 +58,67 @@ export default {
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
-        unidad: 'UNIDAD 2.',
+        unidad: 'UNIDAD 3.',
         numero: '3',
-        titulo:
-          'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+        titulo: 'Derecho objetivo y derecho subjetivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
             titulo:
-              'Representación de algoritmos: pseudocódigo y diagramas de flujo',
+              'Origen y evolución de la clasificación entre derecho objetivo y derecho subjetivo',
             hash: 't_3_1',
           },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Derecho objetivo y derecho subjetivo',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Clasificación de los derechos subjetivos',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Derechos absolutos y relativos',
+            hash: 't_3_4',
+          },
         ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 3.',
+        numero: '4',
+        titulo: 'Derecho escrito y derecho no escrito',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: 'Derecho no escrito',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo: 'Derecho escrito',
+            hash: 't_4_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        unidad: 'UNIDAD 3.',
+        numero: '',
+        titulo: 'Sintesis',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -141,73 +168,94 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Algoritmo',
+      termino: 'Clasificación',
       significado:
-        'secuencia de pasos lógicos, finitos que resuelven un problema particular.',
+        'la acción de ordenar o agrupar elementos según sus características comunes. En el derecho, la clasificación organiza normas y principios en categorías, facilitando su comprensión, enseñanza y aplicación en casos específicos. Por ejemplo, el derecho se clasifica en Derecho Público, Privado y Social.',
     },
     {
-      termino: 'Ciclos',
+      termino: 'Derecho Administrativo',
       significado:
-        'conjunto de instrucciones de repetición que se llevan a cabo mientras se cumple una condición.',
+        'rama del derecho público que regula la administración y funcionamiento de las entidades públicas, así como su relación con los ciudadanos. Su objetivo es garantizar que las decisiones administrativas se tomen de acuerdo con procedimientos justos y transparentes, protegiendo a los ciudadanos de posibles abusos de poder.',
     },
     {
-      termino: 'Condiciones',
+      termino: 'Derecho Adjetivo',
       significado:
-        'etapa en la que el algoritmo debe tomar una decisión y según la respuesta obtenida continuará su proceso.',
+        'también conocido como Derecho Procesal, regula los procedimientos y mecanismos legales para hacer efectivos los derechos y obligaciones. Es fundamental para el funcionamiento del sistema judicial, ya que establece cómo se presentan y tramitan las demandas, las pruebas y las apelaciones.',
     },
     {
-      termino: 'Constante',
+      termino: 'Derecho Civil:',
       significado:
-        'es una variable almacenada en memoria y cuyo contenido no cambiará durante todo el proceso de ejecución del algoritmo.',
+        'rama del derecho privado que regula las relaciones entre particulares, abarcando temas como contratos, propiedad y relaciones familiares. Es la base del derecho privado, ya que establece normas para la convivencia en sociedad y las relaciones individuales y patrimoniales.',
     },
     {
-      termino: 'Diagrama de flujo',
+      termino: 'Derecho Constitucional',
       significado:
-        'representación gráfica de un proceso, ilustran paso a paso la lógica que debe seguir el programa de manera sencilla.',
+        'rama del derecho público que define la estructura y principios fundamentales del Estado, y protege los derechos y deberes de los ciudadanos. El Derecho Constitucional establece la organización del Estado, la separación de poderes y los mecanismos de control y protección de los derechos fundamentales.',
     },
     {
-      termino: 'Eficiencia',
-      significado: 'seleccionar la manera óptima para resolver un problema.',
+      termino: 'Derecho Internacional',
+      significado:
+        'Derecho Internacional	conjunto de normas que regulan las relaciones entre Estados y organizaciones internacionales. Su finalidad es promover la cooperación y la paz entre naciones, abordando temas como derechos humanos, comercio internacional y resolución de conflictos.',
     },
     {
-      termino: 'Identificador',
+      termino: 'Derecho No Escrito',
       significado:
-        'corresponde al nombre asignado a una variable en la memoria',
+        'normas y principios jurídicos no registradas en textos formales, sino que se transmiten por tradición o costumbre. Ejemplos incluyen la Ley del Talión y ciertas prácticas comerciales. Aunque el Derecho Escrito predomina en los sistemas modernos, el Derecho No Escrito todavía tiene relevancia en contextos específicos.',
     },
     {
-      termino: 'Memoria',
+      termino: 'Derecho Objetivo',
       significado:
-        'espacio reservado dentro del sistema que contiene un nombre y una variable',
+        'conjunto de normas que rigen la conducta de todos los individuos en una sociedad, estableciendo lo permitido, prohibido y obligatorio. Es “objetivo” porque se aplica sin distinción a todos los ciudadanos y constituye el marco general del sistema jurídico.',
     },
     {
-      termino: 'Proceso',
+      termino: 'Derecho Penal',
       significado:
-        'conjunto de instrucciones que "manipulan" los datos y entregan la solución al problema.',
+        'rama del derecho público que define los delitos y establece las sanciones correspondientes. Su objetivo es proteger el orden social, garantizando que las conductas delictivas sean castigadas y que se respeten los derechos de las víctimas y los acusados.',
     },
     {
-      termino: 'Programa',
+      termino: 'Derecho Privado',
       significado:
-        '"Conjunto de instrucciones que sigue la computadora para alcanzar un resultado específico" (Von Neumann 1946)',
+        'parte del derecho que regula relaciones entre individuos o entidades privadas sin la intervención del Estado como autoridad, promoviendo la igualdad entre las partes. Incluye subramas como el Derecho Civil y el Derecho Comercial, y regula áreas como contratos, propiedad y relaciones familiares.',
     },
     {
-      termino: 'Pseudocódigo',
+      termino: 'Derecho Público',
       significado:
-        'permite escribir de manera ordenada la secuencia de pasos lógicos que el algoritmo debe ejecutar, es universal lo que implica su comprensión y lectura sin requerirse un lenguaje de programación formal para su escritura',
+        'Conjunto de normas que regulan  las relaciones entre el Estado y los ciudadanos, enfocándose en el bienestar colectivo y el control del ejercicio del poder estatal. Incluye el Derecho Constitucional, el Derecho Penal y el Derecho Administrativo, buscando el orden y el bien común.',
     },
     {
-      termino: 'Secuencia',
+      termino: 'Derecho Social',
       significado:
-        'ejecución de instrucciones de manera ordenada y jerárquica, lineal, una tras otra y sin interrupción hasta su finalización',
+        'rama del derecho orientada a proteger los derechos de los grupos más vulnerables y a asegurar la justicia social. Incluye el Derecho Laboral y el Derecho de la Seguridad Social, y regula temas como el trabajo, la protección social y la igualdad en el acceso a derechos básicos.',
     },
     {
-      termino: 'Sistema',
+      termino: 'Derecho Subjetivo',
       significado:
-        'conjunto de elementos que tienen una relación directa entre sí y que interactúan de manera coordinada para obtener un objetivo específico',
+        'facultad o poder que el sistema jurídico otorga a una persona para realizar o exigir algo, basado en las normas del Derecho Objetivo. Es “subjetivo” porque está relacionado con los derechos específicos de cada individuo, como el derecho a la propiedad o a la libertad.',
     },
     {
-      termino: 'Variable',
+      termino: 'Derecho Sustantivo',
       significado:
-        'diferente a la constante, la variable sí cambia "varía" su valor según los procedimientos que se lleven a cabo dentro del algoritmo.',
+        'conjunto de normas que define los derechos y obligaciones de las personas en sus relaciones con el Estado y otras personas. Es el “qué” del sistema jurídico, ya que establece las conductas permitidas y prohibidas, protegiendo derechos como la vida, la propiedad y la libertad.',
+    },
+    {
+      termino: 'División',
+      significado:
+        'distribución de un conjunto en partes componentes para facilitar su estudio y comprensión. En el derecho, la división es esencial para analizar cada área de manera específica, como en la separación entre Derecho Público y Derecho Privado.',
+    },
+    {
+      termino: 'Estado',
+      significado:
+        'Estado	entidad política con una estructura organizada y que regula la vida en sociedad dentro de un territorio definido. El Estado tiene el poder de promulgar leyes, administrar justicia y velar por el cumplimiento del derecho, funcionando como la principal autoridad de una nación.',
+    },
+    {
+      termino: 'Ley',
+      significado:
+        'norma jurídica escrita que establece derechos y obligaciones para todos los ciudadanos, y que es promulgada por la autoridad competente. La ley busca ordenar la convivencia social, proteger derechos y sancionar conductas que afecten el bien común.',
+    },
+    {
+      termino: 'Norma',
+      significado:
+        'regla que impone un comportamiento específico y que puede ser exigida mediante el poder del Estado. Las normas jurídicas definen lo que es permitido, obligatorio o prohibido, y son la base del Derecho Objetivo.',
     },
   ],
   complementario: [],
