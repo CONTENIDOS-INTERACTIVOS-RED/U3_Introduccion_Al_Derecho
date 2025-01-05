@@ -144,26 +144,30 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
-      // {
-      //   icono: 'far fa-registered',
-      //   titulo: 'Síntesis',
-      //   nombreRuta: 'sintesis',
-      // },
     ],
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Acosta A. (2009) Constitución política de Colombia. Editorial: Ecoe Ediciones',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/69002?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
+    },
+    {
+      referencia:
+        'Müller, F (2016) La positividad de los derechos fundamentales: cuestiones para una dogmática práctica de los derechos fundamentales Editorial: Dykinson',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/968557?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
+    },
+    {
+      referencia:
+        'Fix-Zamudio, H. (2010) Protección internacional de los derechos humanos. Editorial: Librería Editora Platense S.R.L.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/66602?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col',
     },
   ],
   glosario: [
@@ -183,7 +187,7 @@ export default {
         'también conocido como Derecho Procesal, regula los procedimientos y mecanismos legales para hacer efectivos los derechos y obligaciones. Es fundamental para el funcionamiento del sistema judicial, ya que establece cómo se presentan y tramitan las demandas, las pruebas y las apelaciones.',
     },
     {
-      termino: 'Derecho Civil:',
+      termino: 'Derecho Civil',
       significado:
         'rama del derecho privado que regula las relaciones entre particulares, abarcando temas como contratos, propiedad y relaciones familiares. Es la base del derecho privado, ya que establece normas para la convivencia en sociedad y las relaciones individuales y patrimoniales.',
     },
@@ -258,33 +262,4 @@ export default {
         'regla que impone un comportamiento específico y que puede ser exigida mediante el poder del Estado. Las normas jurídicas definen lo que es permitido, obligatorio o prohibido, y son la base del Derecho Objetivo.',
     },
   ],
-  complementario: [],
-  creditos: [],
-  creditosAdicionales: {
-    imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
-    creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
-  },
-  // creditosInicio: [
-  //   {
-  //     titulo: 'En alianza',
-  //     contenido: [
-  //       require('@/assets/template/logo-sena-naranja.svg'),
-  //       require('@/assets/template/mintic.jpg'),
-  //       require('@/assets/template/minsalud.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'En compañía',
-  //     contenido: [
-  //       require('@/assets/template/presidencia.jpg'),
-  //       require('@/assets/template/ecopetrol.jpg'),
-  //     ],
-  //   },
-  //   {
-  //     titulo: 'Una iniciativa',
-  //     contenido: [require('@/assets/template/santander.jpg')],
-  //   },
-  // ],
 }

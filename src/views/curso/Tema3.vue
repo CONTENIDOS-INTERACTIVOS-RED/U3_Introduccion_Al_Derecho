@@ -20,28 +20,18 @@
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/25.png', alt='')
       .col-lg-7(data-aos="fade-left")
         AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-          div(titulo="Derecho Derecho objetivo")
-            p.mb-0 Se refiere al conjunto de normas y reglas de conducta, establecidas para todos los miembros de una sociedad, que definen lo que está permitido, prohibido u obligatorio. Estas normas son generales, permanentes e impersonales, lo que significa que no están hechas para casos específicos, ni para personas individuales, sino para todos los ciudadanos. Son la "ley" en sentido amplio, es decir, el marco normativo que establece lo que las personas deben o no deben hacer, para lograr una convivencia pacífica y ordenada.
-              br
-              br
-              |Es "objetivo" porque se aplica independientemente de los deseos individuales de cada persona. Es un sistema de normas externas, diseñado para regular la conducta de todos en la sociedad, y cuya observancia puede ser exigida mediante la coerción del Estado. 
-              br
-              br
-              |La clave de esta clasificación es que el derecho objetivo constituye el “qué” del sistema legal: qué está permitido, qué está prohibido, qué obligaciones existen y cuáles son las consecuencias de su incumplimiento.
+          div(titulo="Derecho objetivo")
+            p Se refiere al conjunto de normas y reglas de conducta, establecidas para todos los miembros de una sociedad, que definen lo que está permitido, prohibido u obligatorio. Estas normas son generales, permanentes e impersonales, lo que significa que no están hechas para casos específicos, ni para personas individuales, sino para todos los ciudadanos. Son la "ley" en sentido amplio, es decir, el marco normativo que establece lo que las personas deben o no deben hacer, para lograr una convivencia pacífica y ordenada.
+            p Es "objetivo" porque se aplica independientemente de los deseos individuales de cada persona. Es un sistema de normas externas, diseñado para regular la conducta de todos en la sociedad, y cuya observancia puede ser exigida mediante la coerción del Estado. 
+            p La clave de esta clasificación es que el derecho objetivo constituye el “qué” del sistema legal: qué está permitido, qué está prohibido, qué obligaciones existen y cuáles son las consecuencias de su incumplimiento.
 
           div(titulo="Derecho subjetivo")
             p.mb-0 Se refiere a los derechos específicos que el sistema jurídico otorga a cada individuo dentro del marco del derecho objetivo. Es el "poder" o la "facultad" que una persona tiene de actuar de una determinada manera o de exigir algo de otro, basándose en las normas del derecho objetivo. 
-              br
-              br
-              |Es decir, mientras que el derecho objetivo establece las normas generales, el derecho subjetivo otorga a cada persona la capacidad de ejercer derechos específicos o reclamar algo.
-              br
-              br
-              |El derecho subjetivo se entiende como el derecho "personal", en el sentido que es específico para cada individuo o entidad, y depende de la situación particular de cada persona. 
-              br
-              br
-              |Entonces, se habla de derechos individuales (como el derecho a la propiedad o el derecho a la libertad), que son facultades que las personas pueden ejercer en sus relaciones con los demás.
-    #t_3_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.1 Origen y evolución de la clasificación entre derecho objetivo y derecho subjetivo
+            p Es decir, mientras que el derecho objetivo establece las normas generales, el derecho subjetivo otorga a cada persona la capacidad de ejercer derechos específicos o reclamar algo.
+            p El derecho subjetivo se entiende como el derecho "personal", en el sentido que es específico para cada individuo o entidad, y depende de la situación particular de cada persona. 
+            p Entonces, se habla de derechos individuales (como el derecho a la propiedad o el derecho a la libertad), que son facultades que las personas pueden ejercer en sus relaciones con los demás.
+    #t_3_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.1] Origen y evolución de la clasificación entre derecho objetivo y derecho subjetivo
     p.mb-4 Esta clasificación se originó en la filosofía jurídica de la antigua Roma y se desarrolló en profundidad, durante el período medieval y la modernidad, especialmente a través de la filosofía escolástica y la teoría jurídica alemana. Conozcamos su evolución:
     ImagenInfografica.color-secundario.mb-5
       template(v-slot:imagen)
@@ -88,26 +78,30 @@
           .col-md-6.col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/29.png', alt='')
-    .p-4(data-aos="fade-left" style="background-color: #fbf8e2")
+    .p-4(data-aos="fade-left" style="background-color: #fbf8e2").mb-5
       .row.align-items-center
         .col-lg-auto
           img(src="@/assets/curso/temas/30.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0 En resumen, el derecho objetivo y el derecho subjetivo son dos caras de la misma moneda en el sistema jurídico. Uno establece el marco general, mientras que el otro permite que cada persona lo haga suyo en forma de derechos específicos. Esta distinción no solo enriquece el estudio del derecho, sino que también garantiza que las personas puedan vivir en una sociedad en la que sus derechos individuales están protegidos dentro de un marco normativo común. 
-    #t_3_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.2 Derecho objetivo y derecho subjetivo
+    #t_3_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.2] Derecho objetivo y derecho subjetivo
     .mn.p-5.mb-5(style="background-color: #e5f0f6 ")
       .row.justify-content-center.align-items-center
         .col-lg-6.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/31.svg', alt='')
         .col-lg-6(data-aos="fade-left")
-          p.mb-4 Para conocer sobre el derecho objetivo y el derecho subjetivo lo invitamos a escuchar el siguiente podcast .
+          p.mb-4 Para conocer sobre el derecho objetivo y el derecho subjetivo lo invitamos a escuchar el siguiente #[em podcast].
           div(style="width: 100%")
-            TarjetaAudio.color-primario.bg-white.mb-3(
-              texto="Texto de muestra  "
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+            TarjetaAudio.color-acento-botones.bg-white.mb-3(
+              texto="Derecho objetivo y derecho subjetivo"
+              :audio="require('../../assets/podcast/podcast_u3.mp3')"
               tiempo
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
+
+    #t_3_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.3] Teorías sobre el derecho subjetivo
+    p.mb-4 El derecho subjetivo ha sido analizado desde varias perspectivas por diferentes estudiosos del derecho. A continuación, se presentan las tres principales teorías:
     .row.justify-content-center.mb-5
       .col-lg-5.col-7.mb-lg-0.mb-3(data-aos="fade-right"): img(src='@/assets/curso/temas/32.png', alt='')
       .col-lg-7(data-aos="fade-left")
@@ -128,8 +122,8 @@
               br
               br
               |Así, un propietario que alquila su vivienda tiene el derecho de cobrar una renta (que es su interés económico) y al mismo tiempo tiene la libertad de decidir si desea alquilarla o no (voluntad). Esta teoría busca equilibrar el aspecto individual del derecho (la voluntad de cada persona) con el bien social (el interés).
-    #t_3_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.3 Clasificación de los derechos subjetivos
+    #t_3_3.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.4] Clasificación de los derechos subjetivos
     p.mb-4 El derecho subjetivo puede clasificarse en varias categorías, dependiendo del tipo de derecho y su naturaleza. A continuación, se presentan las principales clasificaciones:
     .mn.bg-slyder.p-5.mb-5
       SlyderA(tipo='b').bg-white
@@ -173,8 +167,8 @@
           .col-lg-7
             h4 Derechos políticos
             p Son los que permiten a los ciudadanos participar en la vida pública y en la toma de decisiones del Estado. Estos derechos incluyen el derecho al voto, el derecho a ser elegido y el derecho a expresar opiniones sobre asuntos de interés público. Por ejemplo, el derecho al sufragio (votar) es un derecho político que permite a los ciudadanos elegir a sus representantes. Este derecho garantiza la participación en la democracia y permite que cada ciudadano tenga voz en las decisiones que afectan a la sociedad.
-    #t_3_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 3.4 Derechos absolutos y relativos
+    #t_3_4.titulo-segundo(data-aos='fade-right')
+      h2 #[span 3.4] Derechos absolutos y relativos
     p.mb-4 Finalmente, el derecho subjetivo se clasifica también en derechos absolutos y relativos, según el tipo de sujeto pasivo:
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4(data-aos="zoom-in-up")
@@ -195,6 +189,25 @@
           img(src="@/assets/curso/temas/39.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0 El derecho objetivo y el derecho subjetivo, son esenciales para comprender cómo funciona el sistema jurídico en la vida cotidiana. Mientras que el derecho objetivo establece normas generales para todos, el derecho subjetivo da a cada persona derechos específicos que puede ejercer y reclamar. Entender estas categorías y su funcionamiento permite comprender el equilibrio entre el orden social y los derechos individuales, proporcionando las bases para la convivencia y la justicia en sociedad. 
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/115331?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Vidal B. (2015) Protección jurisdiccional de los derechos fundamentales. Editorial: Difusora Larousse - Editorial Tecnos 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/gOWxh6fIYmI?si=2QbGq9l9t5F2C9-k" target="_blank" rel="noopener noreferrer") Recursos educativos virtuales (20 de junio de 2020) Curso Promotores Legales Comunitarios "PLC" / Hábeas corpus y temas afines
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>

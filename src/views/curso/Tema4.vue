@@ -10,8 +10,8 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/40.png', alt='')
-    #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.1 Derecho no escrito     
+    #t_4_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 4.1] Derecho no escrito     
     .row.justify-content-center.mb-5
       .col-lg-4.col-7.mb-lg-0.mb-3(data-aos="fade-right").order-2: img(src='@/assets/curso/temas/41.png', alt='')
       .col-lg-8(data-aos="fade-left")
@@ -27,7 +27,7 @@
         .row
           .col-md-6.col-lg-7.mb-4.mb-md-0.order-2
             h4 Costumbres y usos sociales
-            p Estos principios son valores universales, como la buena fe y el enriquecimiento sin causa, que aunque no siempre están escritos, son reconocidos y aplicados por los tribunales para llenar vacíos en la legislación o interpretar normas existentes. Por ejemplo, en Colombia, los principios como la buena fe, son fundamentales en los contratos y relaciones entre personas.
+            p Muchas comunidades, especialmente en épocas antiguas o en sociedades tradicionales, se rigen por normas basadas en las costumbres, que todos conocen y respetan por tradición. En ciertos casos, como en el derecho internacional o comercial, algunas costumbres tienen gran relevancia y son consideradas fuente de derecho.
           .col-md-6.col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/43.png', alt='')
@@ -35,7 +35,7 @@
         .row
           .col-md-6.col-lg-7.mb-4.mb-md-0.order-2
             h4 Principios generales del derecho
-            p Muchas comunidades, especialmente en épocas antiguas o en sociedades tradicionales, se rigen por normas basadas en las costumbres, que todos conocen y respetan por tradición. En ciertos casos, como en el derecho internacional o comercial, algunas costumbres tienen gran relevancia y son consideradas fuente de derecho.
+            p Estos principios son valores universales, como la buena fe y el enriquecimiento sin causa, que aunque no siempre están escritos, son reconocidos y aplicados por los tribunales para llenar vacíos en la legislación o interpretar normas existentes. Por ejemplo, en Colombia, los principios como la buena fe, son fundamentales en los contratos y relaciones entre personas.
           .col-md-6.col-lg-5
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/44.png', alt='')
@@ -53,8 +53,8 @@
           img(src="@/assets/curso/temas/46.svg", style="max-width: 90px").mx-auto
         .col-lg
           p.mb-0 En la actualidad, aunque el derecho no escrito ha perdido peso en los sistemas jurídicos formales, aún se aplica en el derecho internacional, en el derecho consuetudinario y en algunos casos específicos dentro del derecho colombiano, particularmente en el ámbito del derecho comercial y en comunidades que conservan tradiciones propias. 
-    #t_4_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.2 Derecho escrito
+    #t_4_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 4.2] Derecho escrito
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-auto.d-none.d-lg-block
         figure
@@ -70,15 +70,154 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
         h3 Convivencia entre derecho escrito y derecho no escrito
-        p.mb-0 La costumbre, la jurisprudencia y la doctrina, son reconocidas como fuentes del derecho las cuales complementan y enriquecen la interpretación y aplicación de las normas legales. Estas fuentes son esenciales en los sistemas jurídicos, puesto que permiten llenar vacíos normativos, adaptar el derecho a nuevas realidades sociales y asegurar una interpretación coherente y razonada de las normas. A continuación, se exploran estas fuentes con mayor profundidad y se incluyen citas de autores relevantes en el ámbito jurídico.
+        p.mb-0 Aunque el derecho escrito es predominante en la mayoría de los sistemas jurídicos actuales, el derecho no escrito aún mantiene su relevancia en algunos campos, complementando al derecho escrito en situaciones donde no existe una regulación específica. Por ejemplo, en casos complejos donde la ley escrita no es suficiente, los jueces pueden recurrir a principios generales del derecho o a la costumbre para tomar decisiones justas. Esto permite una mayor flexibilidad y adaptación del sistema jurídico a situaciones cambiantes y a la diversidad cultural de los ciudadanos.
       .col-lg-4.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/48.png', alt='')
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
 </template>
 
 <script>
+import Actividad from '@/components/actividad/Actividad.vue'
 export default {
   name: 'Tema4',
-  data: () => ({
-    // variables de vue
-  }),
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Sistemas numéricos y álgebra de Boole',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'El Derecho Internacional Público regula las relaciones entre los Estados y organizaciones internacionales',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              'El Derecho Social busca la justicia social y protege a grupos en desventaja, como los trabajadores.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'El Derecho Laboral es una subrama del Derecho Social que regula las relaciones laborales.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              'El Derecho Civil regula exclusivamente relaciones comerciales e internacionales.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: true,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              'El Derecho Comercial es una subrama del Derecho Privado que abarca contratos mercantiles y sociedades.',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Verdadero',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Falso',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
 }
 </script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

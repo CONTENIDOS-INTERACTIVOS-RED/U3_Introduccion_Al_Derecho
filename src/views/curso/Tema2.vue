@@ -10,8 +10,8 @@
         .col-lg-auto
           figure
             img(src='@/assets/curso/temas/10.png', alt='')
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.1 Derecho sustantivo
+    #t_2_1.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.1] Derecho sustantivo
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-auto.d-none.d-lg-block
         figure
@@ -98,8 +98,8 @@
       .col-lg-7.mb-lg-0.mb-3(data-aos="fade-right")
         p.mb-0 El derecho sustantivo y sus ramas, representan la columna vertebral del sistema jurídico, asegurando que todas las facetas de la vida en sociedad estén cubiertas por un marco legal adecuado. Al dividirse en derecho público, derecho social y derecho privado, permite que cada aspecto de la vida humana –ya sea en relación con el Estado, en contextos laborales o en las relaciones personales y comerciales– esté regulado por normas claras que promuevan el respeto, la justicia y la seguridad. Este ordenamiento es esencial para mantener el equilibrio entre el bien común y los derechos individuales, garantizando así una convivencia social justa y organizada.  
       .col-lg-5.col-7(data-aos="fade-left"): img(src='@/assets/curso/temas/21.png', alt='')
-    #t_2_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 2.2 Derecho adjetivo
+    #t_2_2.titulo-segundo(data-aos='fade-right')
+      h2 #[span 2.2] Derecho adjetivo
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-auto.d-none.d-lg-block
         figure
@@ -114,7 +114,23 @@
               p <strong>Anexo. </strong> Derecho adjetivo.
 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/114292?col_q=ingenier%C3%ADa__4.0&col_code=ELC034&prev=col" target="_blank" rel="noopener noreferrer") Pérez A (2013) Los derechos fundamentales. Editorial: Difusora Larousse - Editorial Tecnos 
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/hBZGWlxVUt4?si=mYEoqRNEaDlPqXIx" target="_blank" rel="noopener noreferrer") Universidad abierta de recoleta (20 de diciembre de 2019) ¿Qué son los derechos fundamentales?
+              
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 </template>
