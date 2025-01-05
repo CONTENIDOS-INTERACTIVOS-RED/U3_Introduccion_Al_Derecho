@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno(:titulo="'Unidad 3. Clasificación del derecho'" :subTitulo="'4. Derecho escrito y derecho no escrito'")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5
     .mb-5(data-aos="fade-up" style="background-color: #efeadd ")
       .row.justify-content-center.align-items-center
         .col-lg.order-2
