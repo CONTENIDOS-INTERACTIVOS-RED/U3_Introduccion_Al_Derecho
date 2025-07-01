@@ -8,7 +8,7 @@
       .row.justify-content-center
         .col-lg-12.mb-5
           figure.bg-color-sintesis.p-5.brounded
-            img(src='@/assets/curso/temas/sintesis.svg', alt='')
+            img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
 
 </template>
 

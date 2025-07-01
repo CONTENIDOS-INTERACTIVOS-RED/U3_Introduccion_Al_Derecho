@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'Unidad 3. Clasificación del derecho'" :subTitulo="'1. Clasificación del derecho '")
+  BannerInterno(:titulo="'Unidad 3. Clasificación del derecho'" :subTitulo="'1. Definición de la clasificación del derecho'")
   .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.pb-0.overflow-hidden
     .row.justify-content-center.mb-5
       .col-lg-8.mb-lg-0.mb-3(data-aos="fade-right")
